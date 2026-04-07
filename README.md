@@ -385,6 +385,7 @@ source ./scripts/setup-qcc-env.sh
 - 本仓库基于 [Vibe-Lawyering](https://github.com/LawMotion-AI/Vibe-Lawyering) 构建
 - 感谢 LawMotion AI 提供的专业法律SKILL
 - 企查查智能体数据平台：https://agent.qcc.com
+- Email: duhu@qcc.com
 
 ---
 
