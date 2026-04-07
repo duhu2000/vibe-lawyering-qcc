@@ -1,0 +1,27 @@
+{
+  "name": "vibe-lawyering-qcc",
+  "version": "2.0.0",
+  "description": "法律人AI工具箱 - 企查查MCP增强版。基于Vibe-Lawyering，集成企查查MCP服务，提供智能化的中国企业尽职调查、合同审查、法律研究解决方案。",
+  "author": {
+    "name": "LawMotion AI + QCC",
+    "url": "https://lawmotion.ai/"
+  },
+  "homepage": "https://github.com/LawMotion-AI/Vibe-Lawyering",
+  "repository": "https://github.com/LawMotion-AI/Vibe-Lawyering",
+  "license": "MIT",
+  "keywords": [
+    "legal",
+    "law",
+    "due-diligence",
+    "contract-review",
+    "legal-research",
+    "qcc",
+    "mcp",
+    "china-law",
+    "red-circle",
+    "lawyer-tools",
+    "企查查",
+    "尽职调查",
+    "合同审查"
+  ]
+}
