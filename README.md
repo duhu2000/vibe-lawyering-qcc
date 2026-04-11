@@ -102,7 +102,7 @@ claude --plugin-dir .
 ├── SKILL：legal-due-diligence-qcc 启动尽调流程
 ├── 企查查MCP自动匹配调用：
 │   ├── qcc-company: 工商登记信息核验
-│   ├── qcc-company: 股权穿透识别受益所有人
+│   ├── qcc-company: 股东信息及股权结构
 │   ├── qcc-risk: 18类风险信号扫描（失信、被执行、诉讼等）
 │   ├── qcc-ipr: 知识产权资产盘点
 │   └── qcc-operation: 经营动态与资质证书
@@ -119,7 +119,7 @@ claude --plugin-dir .
 
     【企查查数据核验 - 第2章 股权结构】qcc-company
     ✅ 控股股东：XXX（35%）
-    ✅ 股权穿透：识别受益所有人2名
+    ⚠️  受益所有人/实控人：需通过股东协议等文件核实（企查查MCP暂不支持）
     ✅ 历史变更：共X条变更记录
     ✅ 对外投资：X家关联企业
 
