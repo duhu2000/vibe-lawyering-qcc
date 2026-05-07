@@ -1,5 +1,5 @@
 ---
-name: debt-recovery-assessment-qcc
+name: 债务清偿能力评估-debt-recovery-assessment-qcc
 description: >
   债务清偿能力评估 SKILL · 企查查 MCP V2.0 增强版。
   诉前财产保全决策的核心评估工具。对被告方执行"财务底盘 + 可执行资产 + 债务压力 + 历史偿债模式 + 实控人兜底" 五位一体的清偿能力穿透，输出可直接支撑立案决策与保全标的清单。
