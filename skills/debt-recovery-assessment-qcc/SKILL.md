@@ -231,20 +231,20 @@ SKILL 必须给出清偿率区间（例如 15-30%），而不是单一数字，�
 工具链（对法代 + 实控人每人调用 10-12 个工具）：
 
 个人资产：
-- `mcp__qcc-executive__get_personnel_controlled_companies` — 个人当前实际控制的其他企业（可作为追偿的延伸目标）
-- `mcp__qcc-executive__get_personnel_investments` — 个人对外投资
-- `mcp__qcc-executive__get_personnel_equity_pledge` — 个人股权出质情况
-- `mcp__qcc-executive__get_personnel_stock_pledge` — 上市公司股票质押
-- `mcp__qcc-executive__get_personnel_historical_investments` — 个人历史对外投资（识别个人资产转移）
+- `mcp__qcc-executive__get_executive_controlled_companies` — 个人当前实际控制的其他企业（可作为追偿的延伸目标）
+- `mcp__qcc-executive__get_executive_investments` — 个人对外投资
+- `mcp__qcc-executive__get_executive_equity_pledge` — 个人股权出质情况
+- `mcp__qcc-executive__get_executive_stock_pledge` — 上市公司股票质押
+- `mcp__qcc-executive__get_executive_historical_investments` — 个人历史对外投资（识别个人资产转移）
 
 个人司法状态：
-- `mcp__qcc-executive__get_personnel_judgment_debtor` — 个人当前被执行
-- `mcp__qcc-executive__get_personnel_dishonest` — 个人当前失信
-- `mcp__qcc-executive__get_personnel_high_consumption_ban` — 个人当前限高
-- `mcp__qcc-executive__get_personnel_exit_restriction` — 个人限制出境
-- `mcp__qcc-executive__get_personnel_equity_freeze` — 个人名下股权冻结
-- `mcp__qcc-executive__get_personnel_historical_dishonest` — 个人历史失信
-- `mcp__qcc-executive__get_personnel_historical_judgment_debtor` — 个人历史被执行
+- `mcp__qcc-executive__get_executive_judgment_debtor` — 个人当前被执行
+- `mcp__qcc-executive__get_executive_dishonest` — 个人当前失信
+- `mcp__qcc-executive__get_executive_high_consumption_ban` — 个人当前限高
+- `mcp__qcc-executive__get_executive_exit_restriction` — 个人限制出境
+- `mcp__qcc-executive__get_executive_equity_freeze` — 个人名下股权冻结
+- `mcp__qcc-executive__get_executive_historical_dishonest` — 个人历史失信
+- `mcp__qcc-executive__get_executive_historical_judgment_debtor` — 个人历史被执行
 
 **分析要点**：
 

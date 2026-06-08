@@ -96,8 +96,8 @@ V2.0 相对 V1.0 的最大升级在于新增"核心人员画像"维度——实�
 | 1 | 失信被执行人累计 | `mcp__qcc-risk__get_dishonest_info` | > 50 条 | > 200 条 |
 | 2 | 终本案件未履行金额 | `mcp__qcc-risk__get_terminated_cases` | > 1 亿元 | > 10 亿元 |
 | 3 | 股权冻结扩散 | `mcp__qcc-risk__get_equity_freeze` | > 10 条 | > 50 条 |
-| 4 | 法代个人被执行 | `mcp__qcc-executive__get_personnel_judgment_debtor` | > 0 条（任何命中）| — |
-| 5 | 实控人限制出境 | `mcp__qcc-executive__get_personnel_exit_restriction` | > 0 条（任何命中）| — |
+| 4 | 法代个人被执行 | `mcp__qcc-executive__get_executive_judgment_debtor` | > 0 条（任何命中）| — |
+| 5 | 实控人限制出境 | `mcp__qcc-executive__get_executive_exit_restriction` | > 0 条（任何命中）| — |
 | 6 | 连年失信模式 | `mcp__qcc-history__get_historical_dishonest` | 近 3 年每年新增 | 近 5 年每年新增 |
 | 7 | 资产负债率 | `mcp__qcc-company__get_financial_data` | > 100% | > 150% |
 
@@ -123,9 +123,9 @@ V2.0 相对 V1.0 的最大升级在于新增"核心人员画像"维度——实�
 ### 维度三：核心人员跑路信号
 
 工具链：
-- `mcp__qcc-executive__get_personnel_exit_restriction` — 实控人 / 法代被限制出境（跑路风险最强信号）
-- `mcp__qcc-executive__get_personnel_dishonest` + `get_personnel_judgment_debtor` — 个人失信被执行
-- `mcp__qcc-executive__get_personnel_high_consumption_ban` — 个人限高
+- `mcp__qcc-executive__get_executive_exit_restriction` — 实控人 / 法代被限制出境（跑路风险最强信号）
+- `mcp__qcc-executive__get_executive_dishonest` + `get_executive_judgment_debtor` — 个人失信被执行
+- `mcp__qcc-executive__get_executive_high_consumption_ban` — 个人限高
 - `mcp__qcc-history__get_historical_legal_rep` — 法代更替时间线
 
 **判定标准**：
